@@ -1,0 +1,115 @@
+
+
+.infodiv {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 14px;
+  row-gap: 34px;
+}
+
+@media (max-width: 750px) {
+  .infodiv {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+  .infodiv {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px){
+  .infodiv {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.v1 {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.timestamp {
+  background-color: rgba(18, 18, 18, 0.5);
+  color: white;
+  position: absolute;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 500;
+  border-radius: 4px;
+  right: 8px;
+  bottom: 12px;
+}
+
+.v2 {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.h2 {
+  margin-right: 20px;
+}
+.thumbnail {
+  width: 100%;
+}
+.title {
+  font-weight: 500;
+  margin-bottom: 6px;
+  margin-top: 0;
+  margin-bottom: 6px;
+  font-family: Roboto;
+}
+
+.channelname {
+  margin-bottom: 2px;
+}
+.h1 {
+  position: relative;
+}
+.channel-tooltip {
+  bottom: -74px;
+  left: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px 16px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.channel-tooltip-info {
+
+}
+.h1:hover .channel-tooltip{
+  opacity: 1;
+}
+
+.channel-tooltip img {
+  border-radius: 25px;
+  height: 50px;
+  margin-right: 8px;
+}
+.tooltip-channel-name {
+  font-weight: 500;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+.tooltip-sub-count {
+  white-space: nowrap;
+}
+
