@@ -1,0 +1,52 @@
+.next-videos-div {
+  margin-left: 26px;
+  flex: 1;
+  margin-top: 10px;
+}
+.search-tags-div {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+.search-tags-div button {
+  border: none;
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  background-color: rgb(248, 248, 248);
+}
+.next-video-details {
+  display: flex;
+  margin-bottom: 8px;
+}
+.next-video-info {
+  display: flex;
+  flex-direction: column;
+}
+.next-thumbnail {
+  height: 94px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.next-video-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+.next-channel-div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.next-channel-name {
+  font-size: 12px;
+  margin-right: 5px;
+}
+.tick-next {
+  height: 14px;
+}
+.next-video-views {
+  font-size: 12px;
+}
