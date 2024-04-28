@@ -1,0 +1,126 @@
+main {
+  display: flex;
+
+}
+.main-video-div {
+  width: 854px;
+}
+.video-div {
+  width: 854px;
+  height: 480px;
+  background-color: darkgray;
+  margin-bottom: 14px;
+  border-radius: 10px;
+}
+.video-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  line-height: 28px;
+}
+.video-stats-div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.video-stats-div button {
+  border: none lightgray;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.stats-left-section {
+  display: flex;
+  align-items: center;
+}
+.channel-logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 15px;
+  margin-right: 12px;
+}
+.channel-info {
+  margin-right: 24px;
+}
+.channel-tick-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.tick {
+  height: 14px;
+}
+
+.channel-name {
+  font-weight: 500;
+  margin-right: 5px;
+}
+.sub-count {
+  font-size: 12px;
+  color: rgb(109, 109, 109);
+}
+.stats-left-section .subscribe-button {
+  background-color: black;
+  color: white;
+  padding: 10px 18px;
+}
+
+
+.stats-right-section {
+  display: flex;
+  align-items: center;
+}
+.like-dislike-div {
+  display: flex;
+}
+.like-button ,
+.dislike-button,
+.share-button ,
+.download-button   
+{
+  display: flex;
+  align-items: center;
+}
+.dislike-button,
+.share-button ,
+.download-button   
+{
+  margin-right: 10px;
+}
+
+.like-button-icon ,
+.dislike-button-icon ,
+.share-button-icon ,
+.download-button-icon
+{ 
+  margin-right: 6px;
+  height: 20px;
+}
+.video-stats-div .like-button{
+  border: none;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgb(203, 203, 203);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-left: 16px;    
+}
+
+.video-stats-div .dislike-button{
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.menu-button-icon {
+  height: 17px;
+}
+
+
+
+
+
+
+
+
+
