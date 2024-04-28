@@ -1,0 +1,26 @@
+
+.video-description-div {
+  background-color: rgb(242, 242, 242);
+  padding: 12px 14px;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.video-stats-info {
+  display: flex;
+  margin-bottom: 4px;
+}
+.views-text {
+  font-weight: 500;
+  margin-right: 8px;
+}
+.upload-date-text {
+  font-weight: 500;
+  margin-right: 8px;
+}
+.trending-text {
+  color: rgb(8, 95, 212);
+  font-weight: 500;
+}
+.video-description-text {
+  line-height: 20px;
+}
