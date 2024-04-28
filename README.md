@@ -4,6 +4,15 @@ This project is a recreation of the YouTube homepage and video streaming page, b
 
 This was a part of the HTML and CSS course from the [SuperSimpleDev](https://youtu.be/G3e-cpL7ofc?si=HEj1uSi7vGZ9BbDM) YouTube channel.
 
+## Screenshots
+
+<p align="center">
+  <img src="resources/ss-1.png" />
+</p>
+<p align="center">
+  <img src="resources/ss-2.png" />
+</p>
+
 ## My Journey
 
 I was always curious to learn HTML and CSS because I loved the process of recreating famous designs and the satisfaction of bringing designs to life through code. This project was born out of that curiosity.
@@ -16,15 +25,6 @@ This repository contains the code for two main pages:
 
 *   **YouTube Homepage:** A replica of the YouTube homepage layout, which you can find in the `yt-homepage/` directory.
 *   **YouTube Video Page:** A replica of the video streaming page, located in the `yt-video-page/` directory.
-
-## Screenshots
-
-<p align="center">
-  <img src="resources/ss-1.png" />
-</p>
-<p align="center">
-  <img src="resources/ss-2.png" />
-</p>
 
 ## Technologies Used
 
