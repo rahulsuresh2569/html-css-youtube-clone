@@ -20,8 +20,10 @@ This repository contains the code for two main pages:
 ## Screenshots
 
 <p align="center">
-  <img src="resources/ss-1.png" width="48%" />
-  <img src="resources/ss-2.png" width="48%" />
+  <img src="resources/ss-1.png" />
+</p>
+<p align="center">
+  <img src="resources/ss-2.png" />
 </p>
 
 ## Technologies Used
